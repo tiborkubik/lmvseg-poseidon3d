@@ -20,6 +20,15 @@
 ## Abstract
 The segmentation of teeth in 3D dental scans is difficult due to variations in teeth shapes, misalignments, occlusions, or the present dental appliances. Existing methods consistently adhere to geometric representations, omitting the perceptual aspects of the inputs. In addition, current works often lack evaluation on anatomically complex cases due to the unavailability of such datasets. We present a projection-based approach towards accurate teeth segmentation that operates in a detect-and-segment manner locally on each tooth in a multi-view fashion. Information is spatially correlated via recurrent units. We show that a projection-based framework can precisely segment teeth in cases with anatomical anomalies with negligible information loss. It outperforms point-based, edge-based, and Graph Cut-based geometric approaches, achieving an average weighted IoU score of 0.97122 ± 0.038 and a Hausdorff distance at 95 percentile of 0.49012 ± 0.571 mm. We also release Poseidon’s Teeth 3D (Poseidon3D), a novel dataset of real orthodontic cases with various dental anomalies like teeth crowding and missing teeth.
 
+## Accessing Data
+The dataset is available for download at [Zenodo](https://zenodo.org/records/15608906). It contains 3D dental scans of orthodontic cases, including various anomalies such as teeth crowding and missing teeth. The dataset is intended for research purposes and can be used to train and evaluate segmentation models.
+
+## Parsing the Dataset
+
+tbd: add description
+
+---
+
 ## Requirements
 The code was tested on
 
