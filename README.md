@@ -1,7 +1,8 @@
 # 🦷 LMVSegRNN and Poseidon3D: Addressing Challenging Teeth Segmentation Cases in 3D Dental Surface Orthodontic Scans
 
 <div align="center">
-  <a href="https://www.mdpi.com/2306-5354/11/10/1014#"><img src="https://img.shields.io/badge/PaperLink-blue"></a> &ensp;
+  <a href="https://www.mdpi.com/2306-5354/11/10/1014#"><img src="https://img.shields.io/badge/Access-Paper-blue"></a> &ensp;
+  <a href="https://zenodo.org/records/15608906"><img src="https://img.shields.io/badge/Download-Dataset-green"></a> &ensp;
 </div>
 
 <div align="center">
